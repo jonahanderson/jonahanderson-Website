@@ -1,5 +1,7 @@
 import './About.css';
 import Me2 from "/home/jonah/code/jonahanderson.me/src/img/aboutprofile.jpg"
+import { SocialIcon } from 'react-social-icons';
+
 
 function About() {
   return (
@@ -23,11 +25,15 @@ function About() {
                 some of my favorite aspects of my job.
                 <br></br><br></br>
                 I graduated from the University of Virginia in 2020 majoring in Computer Science.
-                In my free time, I enjoy working on my personal projects. Lately, I have been interested
+                In my free time, I enjoy working on my personal projects. One of my favorites is Greekrho,
+                an early stage startup I cofounded. Lately, I have been interested
                 in React, blockchain tech, and blockchain programming languages.
-
-
             </p>
+        </div>
+
+        <div className="whisper-wrapper">
+            <div className="whisper">Check out this website's code on GitHub: </div>
+            <div className="about-icon"> <SocialIcon url="https://github.com/jonahanderson/jonahanderson.me" style={{ height: 30, width: 30 }}/></div>
 
         </div>
     </div>
