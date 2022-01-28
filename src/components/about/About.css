@@ -138,7 +138,27 @@
 }
 
 @media screen and (max-width: 1200px){
-    .about{
+    .about-right{
         flex-direction: column;
+        text-align: center;
     }
+
+    .about-desc{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .about-backgr{
+        clip-path: polygon(0 0, 0 50%, 100% 0);
+        top: 0;
+        left:0;
+    
+    }
+}
+
+@media screen and (max-width: 500px){    
+    .about-card.bg{
+        display: none;
+    }
+
 }

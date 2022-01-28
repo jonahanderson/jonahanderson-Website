@@ -73,8 +73,8 @@
 }
 
 .intro-icons-item{
-    padding-right: 20px;
     display: inline-block;
+    padding-right: 15px;   
 }
 
 .intro-img{
@@ -87,7 +87,7 @@
 }
 
 .intro-bg{
-    clip-path: polygon(100% 0, 0 100%, 100% 100%);    
+    clip-path: polygon(100% 0, 50% 100%, 100% 100%);
     background-color: #ee6c4d;
     width: 100%;
     height: 100%;
@@ -102,11 +102,20 @@
     }
 
     .intro-left-wrapper{
-        padding: 10px;
+        padding-top: 100px;
         align-items: center;
         text-align: center; 
         justify-content: center;
         height: 100%;
+    }
+
+    .intro-name{
+        white-space: nowrap;
+
+    }
+
+    .intro-desc{
+        width: 60%;
     }
 
     .intro-img{
@@ -119,7 +128,7 @@
     }
 
     .intro-bg{
-        clip-path: polygon(100% 0, 50% 100%, 100% 100%);    
+        clip-path: polygon(100% 50%, 50% 100%, 100% 100%);
 
     }
 
@@ -128,6 +137,33 @@
     .intro-desc{
         display: none;
     }
+
+    .intro-name{
+        white-space: nowrap;
+        font-size: 50px;
+
+
+    }
+
+    .intro-left-wrapper{
+        /* padding: 10px; */
+        align-items: center;
+        text-align: center; 
+        justify-content: center;
+        height: 100%;
+        
+    }
+
+    .intro-icons{
+        padding-top: 20px;
+        padding-right: 0px;
+        padding: 5px;
+    }
 }
 
+@media screen and (max-width: 440px){
+    .intro-left-wrapper{
+        text-size-adjust: auto;
+    }
+}
 }

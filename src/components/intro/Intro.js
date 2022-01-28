@@ -6,6 +6,7 @@ import { SocialIcon } from 'react-social-icons';
 function Intro() {
   return (
     <div className="intro">
+        <div className="intro-bg"></div>
         <div className="intro-left">
             <div className="intro-left-wrapper">
                 <h2 className="intro-greeting">Hello, my name is</h2>
@@ -34,7 +35,6 @@ function Intro() {
         </div>
     
         <div className="intro-right">
-            <div className="intro-bg"></div>
             <img src={Me} alt="" className="intro-img" />
         </div>
 
