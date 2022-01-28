@@ -1,5 +1,6 @@
 import './About.css';
 import Me2 from "/home/jonah/code/jonahanderson.me/src/img/aboutprofile.jpg"
+import greekrho from "/home/jonah/code/jonahanderson.me/src/img/greekrho.png"
 import { SocialIcon } from 'react-social-icons';
 
 
@@ -25,10 +26,21 @@ function About() {
                 some of my favorite aspects of my job.
                 <br></br><br></br>
                 I graduated from the University of Virginia in 2020 majoring in Computer Science.
-                In my free time, I enjoy working on my personal projects. One of my favorites is Greekrho,
+                In my free time, I enjoy working on my personal projects. One of my favorites is Greekrho (see below),
                 an early stage startup I cofounded. Lately, I have been interested
                 in React, blockchain tech, and blockchain programming languages.
             </p>
+
+            <div className="greekrho">
+                <div className="greekrho-browser">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                </div>
+                <a href="https://www.greek-rho.com/#/" target="_blank" rel="noreferrer">
+                    <img src={greekrho} alt="" className="g-img"/>
+                </a>
+            </div>
         </div>
 
         <div className="whisper-wrapper">
