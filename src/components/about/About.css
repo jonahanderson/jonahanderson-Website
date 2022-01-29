@@ -4,6 +4,7 @@
     background-color: lightcyan;
     align-items: center;
     position: relative;
+    overflow:hidden;
 }
 
 .about-left{
@@ -26,7 +27,7 @@
     border-radius: 30px;
     position: relative;
     overflow: hidden;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .about-card.bg{
@@ -44,7 +45,7 @@
 }
 
 .about-backgr{
-    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    clip-path: polygon(0 0, 0% 100%, 50% 0);
     background-color: #ee6c4d;
     width: 100%;
     height: 100%;
@@ -138,27 +139,120 @@
 }
 
 @media screen and (max-width: 1200px){
-    .about-right{
+    .about{
         flex-direction: column;
         text-align: center;
+    }
+
+    .about-left{
+        flex: 0;
+        padding-top: 50px;
+        /* background-color: red; */
+    }
+
+    .about-right{
+        /* padding-bottom: 300px; */
+    }
+
+    .about-title{
+        margin-bottom: -15px;
+    }
+    .about-desc{
+        padding-right: 170px;
+        padding-left: 170px;
+    }
+
+    .about-backgr{
+        clip-path: polygon(0 0, 0 50%, 50% 0);
+        top: 0;
+        left:0;
+    }
+
+    .about-card{
+        width: 30vh;
+        height: 30vh;
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+        background-color: red;
+    }
+    
+    .about-card.bg{
+        position: absolute;
+        top: 30px;
+        left: -20px;
+        background-color: #3D5A80;
+    
+    }
+
+    .greekrho{
+        width: 15vw;
+        height: 15vw;
+        position: absolute;
+        left: 42%;
+        border: 2px solid grey;
+        border-radius: 10px 10px 0px 0px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 860px){ 
+    
+    
+    .about-title{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: -10px;
+        /* background-color: red; */
+    }
+
+    .about-sub{
+        font-size: 40px;
+        line-height: 40px;
+
+    }
+    .about-desc{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 15px;
+        /* line-height: 18px; */
+    }
+    
+    .greekrho{
+        width: 25vw;
+        height: 25vw;
+        position: absolute;
+        left: 37%;
+        border: 2px solid grey;
+        border-radius: 10px 10px 0px 0px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-sub{
+        font-size: 20px;
+        line-height: 21px;
+
     }
 
     .about-desc{
         padding-right: 15px;
         padding-left: 15px;
+        font-size: 15px;
+        /* line-height: 18px; */
     }
-
-    .about-backgr{
-        clip-path: polygon(0 0, 0 50%, 100% 0);
-        top: 0;
-        left:0;
     
-    }
 }
 
-@media screen and (max-width: 500px){    
-    .about-card.bg{
-        display: none;
+
+@media screen and (max-width: 375px){
+    .about-desc{
+        font-size: 12px;
+        line-height: 15px;
+
     }
+     
+
 
 }
