@@ -1,22 +1,31 @@
-import './Navigation.css';
-// import 'bootstrap/dist/css/bootstrap.css';
-import { Nav, Navbar } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import "./Navigation.css"
+import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 
 
 function Navigation() {
   return (
-    <div className="navigation">
+    <div className="big-navigation">
 
-        <Navbar fixed="top">
-            <Navbar.Brand>
-                <Nav.Link href="">Home</Nav.Link>
-            </Navbar.Brand>
+        <Navbar className="navigation" collaspseOnSelect sticky="top" expand='xl'>
+            <Container>
+                <Navbar.Toggle aria-controls="responisve-navbar-nav" />
+                <Navbar.Collapse id="response-navbar-nav">
+                    <Navbar.Brand>
+                        <Nav.Link href="/">Home</Nav.Link>
+                    </Navbar.Brand>
+                    <Nav>
+                        
+                        <Nav.Link href="1">About</Nav.Link>
+                        <Nav.Link href="2">Experience</Nav.Link>
+                        <Nav.Link href="3">Posts</Nav.Link>
+                        <Nav.Link href="3">Contact</Nav.Link>
 
-            <Nav>    
-            <Nav.Link href="posts">Posts</Nav.Link>
-            <Nav.Link href="posts">Posts</Nav.Link>
-            <Nav.Link href="posts">Posts</Nav.Link>
-            </Nav>
+
+
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
         </Navbar>
 
 

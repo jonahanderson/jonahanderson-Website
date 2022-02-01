@@ -8,7 +8,7 @@ import Navigation from './components/navigation/Navigation';
 function App() {
   return (
     <div>
-      {/* <Navigation></Navigation> */}
+      <Navigation></Navigation>
       <Intro></Intro>
       <About></About>
       <Footer></Footer>
