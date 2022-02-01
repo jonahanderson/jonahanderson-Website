@@ -1,11 +1,18 @@
 import './Intro.css';
 import Me from "/home/jonah/code/jonahanderson.me/src/img/profile.png"
 import { SocialIcon } from 'react-social-icons';
+import { Nav, Navbar } from 'react-bootstrap';
 
 
 function Intro() {
   return (
     <div className="intro">
+
+    <div className="na-container"></div>
+
+
+
+
         <div className="intro-bg"></div>
         <div className="intro-left">
             <div className="intro-left-wrapper">
@@ -37,6 +44,24 @@ function Intro() {
         <div className="intro-right">
             <img src={Me} alt="" className="intro-img" />
         </div>
+
+
+        <div className="navigation" fixed="top">
+
+            <Navbar bg="dark" fixed="top">
+                <Navbar.Brand>
+                    <Nav.Link href="/">Home</Nav.Link>
+                </Navbar.Brand>
+
+                <Nav>    
+                <Nav.Link href="posts">Experience</Nav.Link>
+                <Nav.Link href="posts">Posts</Nav.Link>
+                <Nav.Link href="posts">Contact</Nav.Link>
+                </Nav>
+            </Navbar>
+
+
+        </div>    
 
 
     </div>

@@ -8,14 +8,11 @@ function About() {
   return (
     <div className='about'>
         <div className="about-backgr"></div>
-
         <div className="about-left">
-            {/* <div className="back-container"> */}
                 <div className="about-card bg"></div>
                 <div className="about-card">
                     <img src={Me2} alt="" className='about-img'/>
                 </div>
-            {/* </div> */}
         </div>
 
         <div className="about-right">
@@ -45,8 +42,8 @@ function About() {
                 </a>
             </div>
         </div>
-{/* 
-        <div className="whisper-wrapper">
+
+        {/* <div className="whisper-wrapper">
             <div className="whisper">Check out this website's code on GitHub: </div>
             <div className="about-icon"> <SocialIcon url="https://github.com/jonahanderson/jonahanderson.me" style={{ height: 30, width: 30 }}/></div>
 
