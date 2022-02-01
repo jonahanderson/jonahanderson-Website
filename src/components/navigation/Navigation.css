@@ -26,18 +26,18 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 615px) {
     .big-navigation{
         background-color: lightcyan;
         position: absolute;
-        width: 100%;
+        width: 95%;
         left:0;
     }
     
     .navigation{
       background-color: lightcyan;
       position: absolute;
-      width: 100%;
+      width: 95%;
       left: 0;
     }
 }
