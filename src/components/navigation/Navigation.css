@@ -1,0 +1,43 @@
+.big-navigation{
+    background-color: lightcyan;
+    position: absolute;
+    /* width: 70%; */
+}
+
+.navigation{
+  background-color: lightcyan;
+  position: absolute;
+  /* width: 70%; */
+}
+
+@media screen and (max-width: 1200px) {
+    .big-navigation{
+        background-color: lightcyan;
+        position: absolute;
+        /* width: 100%;
+        left:0; */
+    }
+    
+    .navigation{
+      background-color: lightcyan;
+      position: absolute;
+      /* width: 100%;
+      left: 0; */
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .big-navigation{
+        background-color: lightcyan;
+        position: absolute;
+        width: 95%;
+        left:0;
+    }
+    
+    .navigation{
+      background-color: lightcyan;
+      position: absolute;
+      width: 95%;
+      left: 0;
+    }
+}

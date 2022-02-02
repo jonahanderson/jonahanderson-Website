@@ -3,9 +3,11 @@ import Me from "/home/jonah/code/jonahanderson.me/src/img/profile.png"
 import { SocialIcon } from 'react-social-icons';
 
 
+
 function Intro() {
   return (
     <div className="intro">
+        <div className="intro-bg"></div>
         <div className="intro-left">
             <div className="intro-left-wrapper">
                 <h2 className="intro-greeting">Hello, my name is</h2>
@@ -26,19 +28,21 @@ function Intro() {
                     together. 
                 </div>
                 <div className="intro-icons">
-                    <div className="intro-icons-item"> <SocialIcon url="https://www.linkedin.com/in/jonah-anderson-105b44191/"/></div>
-                    <div className="intro-icons-item"> <SocialIcon url="https://github.com/jonahanderson"/></div>
+                    <div className="intro-icons-item"> <SocialIcon url="https://www.linkedin.com/in/jonah-anderson-105b44191/" target="_blank" rel="noreferrer"/></div>
+                    <div className="intro-icons-item"> <SocialIcon url="https://github.com/jonahanderson" target="_blank" rel="noreferrer"/></div>
                     <div className="intro-icons-item"> <SocialIcon url="mailto:jonahmanderson10@gmail.com"/></div>
                 </div>
             </div>
         </div>
-    
+            
         <div className="intro-right">
-            <div className="intro-bg"></div>
             <img src={Me} alt="" className="intro-img" />
         </div>
 
 
+
+
+        
     </div>
   );
 }

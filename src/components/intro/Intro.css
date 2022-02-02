@@ -2,6 +2,7 @@
     display: flex;
     height: 100vh;
     background-color: lightcyan;
+    overflow: hidden;
 }
 
 .intro-left{
@@ -9,6 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1;
+
 }
 
 .intro-right{
@@ -22,6 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    z-index: 5;
 }
 
 .intro-greeting{
@@ -31,11 +35,14 @@
 
 .intro-name{
     font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
 }
 
 .intro-title{
-    height: 50px;
+    height: 53px;
     overflow: hidden;
+    min-height: 53px;
 }
 
 .intro-title-wrapper{
@@ -64,34 +71,141 @@
     font-size: 35px;
     font-weight: bold;
     color: #ee6c4d;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
 .intro-desc{
     font-size: 18px;
+    /* padding-right: 50px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .intro-icons-item{
-    padding-right: 20px;
     display: inline-block;
+    padding-right: 15px;   
 }
 
 .intro-img{
-    width: 95%;
-    height: 95%;
-    object-fit:contain;
+    width: auto;
+    height: 90vh;
+    object-fit: cover;
     position: absolute;
     bottom: 0;
     right: 0;
+    padding-right: 50px;
 }
 
 .intro-bg{
-    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    clip-path: polygon(100% 0, 50% 100%, 100% 100%);
     background-color: #ee6c4d;
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 0;
 }
+
+
+@media screen and (max-width: 1200px){
+    .intro{
+        flex-direction: column;
+    }
+
+    .intro-left-wrapper{
+        padding: 0;
+        padding-top: 100px;
+        margin-top: 60px;
+        align-items: center;
+        text-align: center; 
+        justify-content: center;
+        height: 100%;
+    }
+
+    .intro-name{
+        white-space: nowrap;
+        font-size: 60px;
+
+
+    }
+    .intro-greeting{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    
+
+    .intro-desc{
+        width: 60%;
+        padding-right: 0px;
+    }
+
+    .intro-img{
+        margin: auto;
+        display: block;
+        height: 50vh;
+        width: auto;
+        object-fit: contain;
+        position: relative;
+        padding-right: 0px;
+    }
+
+    .intro-bg{
+        clip-path: polygon(100% 50%, 50% 100%, 100% 100%);
+
+    }
+
+@media screen and (max-width: 500px){
+
+    .intro-desc{
+        display: none;
+    }
+}
+    .intro-name{
+        white-space: nowrap;
+        font-size: 45px;
+        line-height: normal;
+
+
+    }
+
+    .intro-left-wrapper{
+        padding: 0px;
+        align-items: center;
+        text-align: center; 
+        justify-content: center;
+        height: 100%;
+        
+    }
+
+    .intro-icons{
+        padding-top: 20px;
+        padding-right: 0px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .intro-left-wrapper{
+        text-size-adjust: auto;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .intro-name{
+        font-size: 35px;
+    }
+
+    .intro-title-item{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
