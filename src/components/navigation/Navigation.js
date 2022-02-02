@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Navigation.css"
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
+import React from "react";
 
 
 function Navigation() {
@@ -16,10 +17,10 @@ function Navigation() {
                     </Navbar.Brand>
                     <Nav>
                         
-                        <Nav.Link href="1">About</Nav.Link>
-                        <Nav.Link href="2">Experience</Nav.Link>
-                        <Nav.Link href="3">Posts</Nav.Link>
-                        <Nav.Link href="3">Contact</Nav.Link>
+                        <Nav.Link href="/">About</Nav.Link>
+                        <Nav.Link href="/experience">Experience</Nav.Link>
+                        <Nav.Link href="/posts">Posts</Nav.Link>
+                        <Nav.Link href="/contact">Contact</Nav.Link>
 
 
 
