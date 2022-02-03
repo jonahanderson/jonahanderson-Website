@@ -1,5 +1,5 @@
 import './Intro.css';
-import Me from "/home/jonah/code/jonahanderson.me/src/img/profile.png"
+import Me from "../../img/profile.png"
 import { SocialIcon } from 'react-social-icons';
 
 
