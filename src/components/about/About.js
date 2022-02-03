@@ -1,12 +1,12 @@
 import './About.css';
-import Me2 from "/home/jonah/code/jonahanderson.me/src/img/aboutprofile.jpg"
-import greekrho from "/home/jonah/code/jonahanderson.me/src/img/greekrho.png"
+import Me2 from "../../img/aboutprofile.jpg"
+import greekrho from "../../img/greekrho.png"
 import { SocialIcon } from 'react-social-icons';
 
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id="about">
         <div className="about-backgr"></div>
         <div className="about-left">
                 <div className="about-card bg"></div>
