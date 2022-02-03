@@ -3,6 +3,9 @@ import './Experience.css';
 import Resume from "../../img/Anderson-Resume-1.png";
 import Button from 'react-bootstrap/Button';
 import pdf from '../../files/Anderson-Resume.pdf'
+import 'bootstrap/dist/css/bootstrap.css';
+
+
 
 
 function Experience() {
@@ -17,7 +20,7 @@ function Experience() {
 
           <div className="btgroup">
 
-            <Button href={pdf} target="_blank" className="bt1" type="button" class="btn">Resume PDF</Button>
+            <Button href={pdf} target="_blank" className="bt1" type="button">Resume PDF</Button>
           </div>
 
       </div>
