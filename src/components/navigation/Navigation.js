@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Navigation.css"
-import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 import React from "react";
 
 
@@ -8,7 +8,7 @@ function Navigation() {
   return (
     <div className="big-navigation">
 
-        <Navbar className="navigation" collaspseOnSelect sticky="top" expand='xl'>
+        <Navbar className="navigation" sticky="top" expand='xl'>
             <Container>
                 <Navbar.Toggle aria-controls="responisve-navbar-nav" />
                 <Navbar.Collapse id="response-navbar-nav">

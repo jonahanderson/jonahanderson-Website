@@ -1,0 +1,13 @@
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightcyan;
+    height: 100vh; /* not needed? */
+    justify-content: center; /* not needed */
+}
+
+.postcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
