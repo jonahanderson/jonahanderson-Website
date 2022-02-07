@@ -1,6 +1,14 @@
-.page{
+.contact{
     display: flex;
     height: 100vh;
     background-color: red;
     overflow: hidden;
+}
+
+.flair{
+    width: 20px;
+    height: 100%;
+    background-color: #ee6c4d;
+    position: absolute;
+
 }

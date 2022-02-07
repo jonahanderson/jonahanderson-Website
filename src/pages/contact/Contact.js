@@ -1,8 +1,11 @@
 import React from "react";
+
+
+
 function Contact() {
     return (
-      <div className='page'>
-        Contact
+      <div className='contact'>
+        <div className="flair"></div>
       </div>
     );
   }
