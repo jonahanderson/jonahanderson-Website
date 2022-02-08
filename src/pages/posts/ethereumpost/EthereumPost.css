@@ -1,0 +1,39 @@
+.Epost{
+    display: flex;
+    background-color: lightcyan;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    overflow:hidden;
+}
+
+.EImgContainer{
+    height: 40vh;
+    width: 40vw;
+}
+
+.EpostImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.EpostInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.EpostTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.EpostDesc{
+    font-size: 10px;
+
+
+}

@@ -1,12 +1,15 @@
 import React from "react";
-import Post from '../../pages/post/Post';
+import Ethereum from "../post/Ethereum.js";
 import './Posts.css';
+
 
 function Posts() {
     return (
       <div className="posts">
         <div className="postcontainer">
-          Posts coming soon!
+          <Ethereum></Ethereum>
+
+
         </div>
       </div>
     );
