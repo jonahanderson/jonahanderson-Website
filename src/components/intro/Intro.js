@@ -30,6 +30,7 @@ function Intro() {
                 <div className="intro-icons">
                     <div className="intro-icons-item"> <SocialIcon url="https://www.linkedin.com/in/jonah-anderson-105b44191/" target="_blank" rel="noreferrer"/></div>
                     <div className="intro-icons-item"> <SocialIcon url="https://github.com/jonahanderson" target="_blank" rel="noreferrer"/></div>
+                    <div className="intro-icons-item"> <SocialIcon url="https://app.ens.domains/name/jonahanderson.eth/details" target="_blank" rel="noreferrer"/></div>
                     <div className="intro-icons-item"> <SocialIcon url="mailto:jonahmanderson10@gmail.com"/></div>
                 </div>
             </div>
