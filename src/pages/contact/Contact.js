@@ -49,17 +49,24 @@ function Contact() {
   return (
       <div className="contact-form">
         <div className="contact-wrapper">
-          <h1 className="title">Contact me:</h1>
-          <InputGroup className="yourname"> <Form.Control type="text" placeholder="Your name" value={name} onChange={e => setName(e.target.value)}/></InputGroup>
-          <InputGroup className="youremail"> <Form.Control type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} /></InputGroup>
-          <InputGroup className="yourmessage"> <Form.Control as="textarea" placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)} /></InputGroup>
+          <div className="contact-wrapper1">
+
+            <div className="sizing">
+
+              <h2 className="title">Contact me:</h2>
+              <InputGroup className="yourname"> <Form.Control type="text" placeholder="Your name" value={name} onChange={e => setName(e.target.value)}/></InputGroup>
+              <InputGroup className="youremail"> <Form.Control type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} /></InputGroup>
+              <InputGroup className="yourmessage"> <Form.Control as="textarea" placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)} /></InputGroup>
           
-          <div className="ww">
+              <div className="ww">
 
-          <Button onClick={submit}>Send Message</Button>
+              <Button className="bt2" onClick={submit}>Send Message</Button>
 
+              </div>
+              {emailSent ? <div className="response">Thank you for your message. I'll be in contact with you shortly!</div> : null}
+            </div>
           </div>
-          {emailSent ? <div className="response">Thank you for your message, i'll be in contact with you shortly!</div> : null}
+
         </div>
       </div>
     );
