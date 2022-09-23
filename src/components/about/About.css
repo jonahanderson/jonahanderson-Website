@@ -221,7 +221,7 @@
     
     .greekrho{
         width: 25vw;
-        height: 25vw;
+        height: 22vw;
         position: absolute;
         left: 37%;
         border: 2px solid grey;
@@ -243,7 +243,10 @@
         font-size: 15px;
         /* line-height: 18px; */
     }
-    
+
+    .greekrho{
+        /* height: 25vw; */
+    }
 }
 
 

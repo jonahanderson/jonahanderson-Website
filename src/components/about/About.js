@@ -1,7 +1,6 @@
 import './About.css';
 import Me2 from "../../img/aboutprofile.jpg"
 import greekrho from "../../img/greekrho.png"
-import { SocialIcon } from 'react-social-icons';
 
 
 function About() {
@@ -26,9 +25,9 @@ function About() {
                 some of my favorite aspects of my job.
                 <br></br><br></br>
                 I graduated from the University of Virginia in 2020 majoring in Computer Science.
-                In my free time, I enjoy working on my personal projects. One of my favorites is Greekrho (see below),
+                In my free time, I enjoy working on my personal projects. One of my favorites is Greekrho (click below),
                 an early stage startup I cofounded. Lately, I have been interested
-                in React, blockchain tech, and blockchain programming languages.
+                in cloud infrastructure, blockchain tech, and blockchain programming languages.
             </p>
 
             <div className="greekrho">
