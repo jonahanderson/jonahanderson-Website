@@ -1,14 +1,88 @@
-.contact{
+.contact-form{
     display: flex;
     height: 100vh;
-    background-color: red;
-    overflow: hidden;
+    background-color: lightcyan;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: scroll;
 }
 
-.flair{
-    width: 20px;
-    height: 100%;
+.contact-wrapper{
+    width: 75vmin;
     background-color: #ee6c4d;
-    position: absolute;
+    border: 15px solid #3D5A80;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
 
+/* .contact-wrapper1{
+    width: 70vmin;
+    height: 90%;
+    background-color: #ee6c4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+
+} */
+
+.sizing{
+    width: 60vmin;
+    
+    
+    /* background-color: red; */
+    padding-bottom: 40px;
+}
+
+
+.yourname{
+    padding-bottom: 10px;
+}
+
+.youremail{
+    padding-bottom: 10px;
+
+}
+
+.yourmessage{
+    padding-bottom: 10px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.response{
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ww{
+    text-align: center;
+    /* padding-bottom: 5px; */
+    padding-top: 10px;
+}
+
+.bt2{
+    background-color: #3D5A80;
+    border-color: #3D5A80;
+    color: white;
+}
+
+.bt2:hover{
+    background-color: #98c1d9;
+    border-color: #98c1d9;
+    color: white;
+}
+
+.bt2:focus{
+    background-color: lightcyan;
+    border-color: #3D5A80;
+    color: black;
 }

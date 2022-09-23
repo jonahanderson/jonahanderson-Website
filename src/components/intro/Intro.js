@@ -23,13 +23,14 @@ function Intro() {
                 </div>
                 <div className="intro-desc">
                     I build, design, and code within the Washington D.C. metropolitan area. 
-                    Feel free to take a look at some of my personal projects. 
+                    Feel free to take a look at my experience and personal projects. 
                     If you like what you see, contact me and we can build something
                     together. 
                 </div>
                 <div className="intro-icons">
                     <div className="intro-icons-item"> <SocialIcon url="https://www.linkedin.com/in/jonah-anderson-105b44191/" target="_blank" rel="noreferrer"/></div>
                     <div className="intro-icons-item"> <SocialIcon url="https://github.com/jonahanderson" target="_blank" rel="noreferrer"/></div>
+                    <div className="intro-icons-item"> <SocialIcon url="https://app.ens.domains/name/jonahanderson.eth/details" target="_blank" rel="noreferrer"/></div>
                     <div className="intro-icons-item"> <SocialIcon url="mailto:jonahmanderson10@gmail.com"/></div>
                 </div>
             </div>
