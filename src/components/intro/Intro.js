@@ -1,7 +1,7 @@
 import './Intro.css';
 import Me from "../../img/profile.png"
 import { SocialIcon } from 'react-social-icons';
-
+import Button from 'react-bootstrap/Button';
 
 
 function Intro() {
@@ -32,6 +32,9 @@ function Intro() {
                     <div className="intro-icons-item"> <SocialIcon url="https://github.com/jonahanderson" target="_blank" rel="noreferrer"/></div>
                     <div className="intro-icons-item"> <SocialIcon url="https://app.ens.domains/name/jonahanderson.eth/details" target="_blank" rel="noreferrer"/></div>
                     <div className="intro-icons-item"> <SocialIcon url="mailto:jonahmanderson10@gmail.com"/></div>
+                </div>
+                <div className="switchgroup">
+                <Button href="https://jonahanderson.eth.limo/" target="_blank" className="switch" type="button">Also hosted on IPFS (ENS domain) →</Button>
                 </div>
             </div>
         </div>

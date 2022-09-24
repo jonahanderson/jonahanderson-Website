@@ -51,6 +51,30 @@
 
 }
 
+.switchgroup{
+    width: initial;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.switch{
+    background-color: #ee6c4d;
+    border-color: #ee6c4d;
+}
+
+.switch:hover{
+    background-color: #98c1d9;
+    border-color: #ee6c4d;
+    color: white;
+}
+
+.switch:focus{
+    background-color: #3D5A80;;
+    border-color: #ee6c4d;
+    color: white;
+}
+
 @keyframes move {
     33%{
         transform: translateY(-50px);
